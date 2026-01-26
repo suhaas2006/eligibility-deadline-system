@@ -1,2 +1,4 @@
-# eligibility-deadline-system
-Eligibility-based deadline tracking system for students
+# Eligibility & Deadline Intelligence System
+
+Prevents students from missing important exams and scholarships by tracking eligibility-based deadlines.
+
