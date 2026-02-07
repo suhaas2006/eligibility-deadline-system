@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    margin: 0;
+    color: #2c6bed;
+}
+
+.tagline {
+    font-size: 12px;
+    color: #666;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #2c6bed;
+}
+
+.auth-buttons button {
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.login {
+    background: transparent;
+    color: #2c6bed;
+}
+
+.register {
+    background: #2c6bed;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #eef3ff;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 480px;
+}
+
+/* Eligibility Box */
+.eligibility-box {
+    background: #ffffff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.eligibility-box h3 {
+    text-align: center;
+    color: #2c6bed;
+}
+
+.eligibility-box label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.eligibility-box select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+/* Income hidden by default */
+#incomeBox {
+    display: none;
+}
+
+/* Button */
+.check-btn {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    background: #2c6bed;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+}
