@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduPath – Academic Guidance for Every Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-box">
+        <h1 class="logo">EduPath</h1>
+        <p class="tagline">Academic Guidance for Every Student</p>
+    </div>
+
+    <nav>
+        <a href="#">Scholarships</a>
+        <a href="#">Admissions</a>
+        <a href="#">Exams</a>
+        <a href="#">Internships</a>
+        <a href="#">Help</a>
+    </nav>
+
+    <div class="auth-buttons">
+        <button class="login">Login</button>
+        <button class="register">Register</button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Find the Right Opportunities for Your Education</h2>
+        <p>
+            Use EduPath to check eligibility, explore admissions,
+            exams, and internship opportunities easily.
+        </p>
+    </div>
+
+    <!-- Eligibility Checker -->
+    <div class="eligibility-box">
+        <h3>Check Eligibility</h3>
+
+        <label>Education Level</label>
+        <select>
+            <option>Select</option>
+            <option>10th</option>
+            <option>12th</option>
+            <option>Undergraduate</option>
+            <option>Postgraduate</option>
+        </select>
+
+        <label>Category</label>
+        <select>
+            <option>Select</option>
+            <option>General</option>
+            <option>OBC</option>
+            <option>SC</option>
+            <option>ST</option>
+            <option>EWS</option>
+        </select>
+
+        <label>What are you looking for?</label>
+
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="scholarship"> Scholarships</label>
+            <label><input type="checkbox" id="admission"> College Admissions</label>
+            <label><input type="checkbox" id="internship"> Internships</label>
+        </div>
+
+        <!-- Income (hidden by default) -->
+        <div id="incomeBox">
+            <label>Annual Family Income</label>
+            <select>
+                <option>Select</option>
+                <option>Below ₹1,00,000</option>
+                <option>₹1,00,000 – ₹3,00,000</option>
+                <option>₹3,00,000 – ₹6,00,000</option>
+                <option>Above ₹6,00,000</option>
+            </select>
+        </div>
+
+        <button class="check-btn">Check Eligibility</button>
+    </div>
+</section>
+
+<footer>
+    <p>EduPath is an academic project and not an official government website.</p>
+    <p>© EduPath | Academic Project</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
